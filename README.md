@@ -1,2 +1,1 @@
-# VIM
-Visual Instrument Improved
+# VIM Techniques
