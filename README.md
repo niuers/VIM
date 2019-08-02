@@ -14,8 +14,8 @@
 | Command        | Description           |
 | ------------- |-------------|
 | `d'a`      | delete from current line to line of mark `a` |
-| `d`a`      | delete from current cursor position to position of mark `a`      |
-| `y`a`      | yank text to unnamed buffer from cursor to position of mark `a`   |
+| ``d`a``      | delete from current cursor position to position of mark `a`      |
+| ``y`a``      | yank text to unnamed buffer from cursor to position of mark `a`   |
 |`:marks`    |	list all the current marks |
 |`:marks aB` |	list marks `a`, `B`|
 
@@ -28,6 +28,6 @@
 |`` `0``	|jump to position in last file edited (when exited Vim)|
 |`` `1``	|like `` `0`` but the previous file (also `` `2`` etc)|
 |`''`	|jump back (to line in current buffer where jumped from)|
-|`` `` ``	|jump back (to position in current buffer where jumped from)|
+|`` ``  ``	|jump back (to position in current buffer where jumped from)|
 |`` `[`` or `` `]``	|jump to beginning/end of previously changed or yanked text|
 |`` `<`` or `` `>``	|jump to beginning/end of last visual selection|
